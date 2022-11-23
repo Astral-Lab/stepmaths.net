@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    border-bottom: 1px solid black;
+    background-color: black;
+}
+
+#pure {
+    width: 150px;
+    height: 15px;
+    background-color: #2F8FED;
+}
+
+#mech {
+    width: 75px;
+    height: 15px;
+    background-color: orange;
+}
+
+#stat {
+    width: 75px;
+    height: 15px;
+    background-color: red;
+}
+
+main {
+    padding-top: 64px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#pure-qs {
+    margin-top: 1rem;
+    width: 90%;
+    height: auto;
+    background-color: whitesmoke    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+
+#mech-qs {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    width: 90%;
+    height: auto;
+    background-color: whitesmoke    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+#stat-qs {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    width: 90%;
+    height: auto;
+    background-color: whitesmoke    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.pure-component {
+    width: 95%;
+    height: auto; /* what does this really do? */
+    display: flex;
+    justify-content: space-around;
+}
+
+.tracker {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.pure-colour {
+    background-color: #2F8FED;
+}
+
+.mech-colour {
+    background-color: orange;
+}
+
+.stat-colour {
+    background-color: red;
+}
+
+.pure-component div:first-child {
+    font-weight: bold;
+    border-right: 1px solid black;
+    padding-right: 0.75rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+footer nav {
+    display: flex;
+    gap: 1rem;
+}
+
+footer nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke
+}
+
+footer nav a:last-child {
+    border-left: 1px solid white;
+    padding-left: 0.75rem;
+}
+
+/* footer nav a:visited {
+    color: black;
+}
+
+footer nav a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+} */
